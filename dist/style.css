@@ -15017,6 +15017,14 @@ video {
     margin-bottom: 2rem;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
+
+  .article{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8rem;
+    letter-spacing: -0.025em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
 }
 
 @media (min-width : 1024px)
@@ -15091,6 +15099,15 @@ video {
   .info{
     margin-left: 2.5rem;
     margin-right: 2.5rem;
+  }
+
+  .articlle
+    {
+    margin-left: 6rem;
+    margin-right: 6rem;
+    margin-bottom: 8rem;
+    letter-spacing: -0.025em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
 }
 
