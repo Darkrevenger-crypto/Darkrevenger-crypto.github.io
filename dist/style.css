@@ -14964,6 +14964,9 @@ video {
 
 @media (max-width: 1024px)
 {
+  .hbutton{
+  }
+
   .createai{
     margin-top: 8rem;
     margin-bottom: 8rem;
@@ -15048,6 +15051,9 @@ video {
 @media (min-width : 1024px)
 
 {
+  .hbutton{
+  }
+
   .dropdown{
     display: none;
   }

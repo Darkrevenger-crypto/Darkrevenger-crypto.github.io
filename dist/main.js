@@ -1,9 +1,10 @@
 const menu = document.querySelector('.menu');
 const close = document.querySelector('.close');
 const dropdown = document.querySelector('.dropdown');
-let sval=window.scrollY;
+const createai=document.querySelector('.hbutton');
 const h7=document.querySelector('.h7');
 const com=document.querySelector('.com');
+let c=1;
 
 
 dropdown.style.display='none';
@@ -12,6 +13,7 @@ menu.addEventListener('click',open);
 function open(e){
     menu.style.display='none';
     dropdown.style.display='flex';
+    c=-1;
 };
 
 close.addEventListener('click',Close);
@@ -21,19 +23,44 @@ function Close(e)
     menu.style.display='flex';
     dropdown.style.display='none';
     
+    
 };
 
-window.addEventListener('scroll',Scroll);
-
-function Scroll(e)
+window.addEventListener('resize',function(e)
 {
-if (sval>200)
+    let width=window.innerWidth;
+    if(width<1024)
+    {
+        menu.style.display='flex';
+        
+        if(c>0)
+        {dropdown.style.display='none';}
+        else{
+            dropdown.style.display='flex';
+        }
+    }
+    else{
+        dropdown.style.display='none';
+        menu.style.display='none';
+        c=1;
+    }
+});
+
+window.addEventListener('scroll',function(e)
+{
+    let sval=window.scrollY;
+    console.log(sval);
+    if (sval>200)
 {
  h7.style.visibility='hidden';
  com.style.visibility='hidden';
+ createai.style.visibilty='visible';
 }
 else{
     h7.style.visibility='visible';
     com.style.visibility='visible';
+    createai.style.visibilty='hidden';
 }
-};
+
+});
+

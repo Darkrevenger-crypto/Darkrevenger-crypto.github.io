@@ -6,6 +6,9 @@
 
 @media (max-width: 1024px)
 {
+    .hbutton{
+        @apply ;
+    }
     .createai{
         @apply my-32 mx-auto text-xl px-3 py-2 font-bold  border-2 border-white ;
     }
@@ -45,6 +48,9 @@
 @media (min-width : 1024px)
 
 {
+    .hbutton{
+        @apply ;
+    }
     .dropdown{
         @apply hidden;
     }
