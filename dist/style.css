@@ -14964,6 +14964,21 @@ video {
 
 @media (max-width: 1024px)
 {
+  .createai{
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.25rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-weight: 700;
+    border-width: 2px;
+    border-color: #fff;
+  }
+
   .menu{
   }
 
@@ -14973,13 +14988,14 @@ video {
   .topic{
     text-align: center;
     font-weight: 800;
-    font-size: 3rem;
+    font-size: 1.875rem;
     letter-spacing: 0.025em;
     padding-top: 6rem
   }
 
   .com{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 0.875rem;
   }
 
   .navbar{
@@ -15000,7 +15016,7 @@ video {
   .h7{
     letter-spacing: 0.1em;
     color: #fff;
-    font-size: 3rem;
+    font-size: 2.25rem;
     font-weight: 800;
     margin-top: 8rem;
     text-align: center;
@@ -15015,6 +15031,7 @@ video {
     text-align: center;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    font-size: 0.875rem;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
 
@@ -15022,6 +15039,7 @@ video {
     margin-left: 3rem;
     margin-right: 3rem;
     margin-bottom: 4rem;
+    font-size: 0.875rem;
     letter-spacing: -0.025em;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
@@ -15108,6 +15126,21 @@ video {
     margin-bottom: 5rem;
     letter-spacing: -0.025em;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+
+  .createai{
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.875rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-weight: 700;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-width: 4px;
+    border-color: #fff;
   }
 }
 

@@ -6,6 +6,9 @@
 
 @media (max-width: 1024px)
 {
+    .createai{
+        @apply my-32 mx-auto text-xl px-3 py-2 font-bold  border-2 border-white ;
+    }
 .menu{
     @apply ;
 }
@@ -13,10 +16,10 @@
     @apply ;
 }
 .topic{
-    @apply text-center font-extrabold  text-5xl tracking-wide pt-24
+    @apply text-center font-extrabold  text-3xl tracking-wide pt-24
 }
  .com{
-     @apply font-sans  ;
+     @apply font-sans text-sm  ;
  }
  .navbar{
      @apply hidden;
@@ -26,16 +29,16 @@
 }
 
 .h7{
-    @apply tracking-widest text-white text-5xl font-extrabold mt-32 text-center;
+    @apply tracking-widest text-white text-4xl font-extrabold mt-32 text-center;
 }
 .info{
     @apply text-sm text-center;
 }
 .phrase{
-    @apply text-center my-8  font-sans;
+    @apply text-center my-8  text-sm font-sans;
 }
 .article{
-    @apply mx-12 mb-16  tracking-tight font-sans;
+    @apply mx-12 mb-16 text-sm tracking-tight font-sans;
 }
 }
 
@@ -79,7 +82,10 @@
     }
     .article
     {
-        @apply mx-24 mb-20  tracking-tight font-sans;
+        @apply mx-24 mb-20   tracking-tight font-sans;
+    }
+    .createai{
+        @apply my-32 mx-auto text-3xl px-6  font-bold py-2 border-4 border-white ;
     }
     
 }
