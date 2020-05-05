@@ -35,7 +35,7 @@
     @apply text-center my-8  font-sans;
 }
 .article{
-    @apply mx-auto mb-32  tracking-tight font-sans;
+    @apply mx-12 mb-16  tracking-tight font-sans;
 }
 }
 
@@ -77,9 +77,9 @@
     .info{
         @apply mx-10;
     }
-    .articlle
+    .article
     {
-        @apply mx-24 mb-32  tracking-tight font-sans;
+        @apply mx-24 mb-20  tracking-tight font-sans;
     }
     
 }
