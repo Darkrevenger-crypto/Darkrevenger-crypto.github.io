@@ -1,10 +1,11 @@
 const menu = document.querySelector('.menu');
 const close = document.querySelector('.close');
 const dropdown = document.querySelector('.dropdown');
-const createai=document.querySelector('.hbutton');
+const createai=document.querySelector('.createai');
 const h7=document.querySelector('.h7');
 const com=document.querySelector('.com');
 let c=1;
+ 
 
 
 dropdown.style.display='none';
@@ -46,20 +47,24 @@ window.addEventListener('resize',function(e)
     }
 });
 
+
+
+
 window.addEventListener('scroll',function(e)
 {
     let sval=window.scrollY;
-    console.log(sval);
+    
     if (sval>200)
 {
  h7.style.visibility='hidden';
  com.style.visibility='hidden';
- createai.style.visibilty='visible';
+ createai.style.visibility='visible';
 }
 else{
     h7.style.visibility='visible';
     com.style.visibility='visible';
-    createai.style.visibilty='hidden';
+    createai.style.visibility='hidden';
+    
 }
 
 });
