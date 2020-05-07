@@ -8,7 +8,7 @@
     <link rel="icon" href="images/favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body class="bg-fixed" style="background-image:url('images/bg.jpg')">
+<body class="bg-fixed bg-cover" style="background-image:url('images/bg.jpg')">
     <div class=" menu justify-end text-white text-sm font-sans text-right ">
      <button class="focus:no-outline font-bold hover:text-blue-500 m-2 p-2 md:tracking-wide font-sans sm:tracking-normal">
         <div class="flex justify-between items-center">
@@ -24,15 +24,16 @@
      </button>
     </div>
 
-    <div class=" dropdown flex justify-end " >
-     <div class="max-w-md w-3/4 text-center   absolute rounded-lg  bg-white ">
+    <div class=" dropdown  flex justify-end  " >
+     <!--absolute and fixed attribute dont work together thatswhy ruined most of time fixing the dropdown-->   
+     <div class="h-screen flex flex-col   max-w-md w-3/4 text-center  fixed rounded-lg  bg-white ">
         <div class="  flex justify-end bg-white "><button class="px-4 close"><i class="fa fa-close"></i></button></div>
-        <div class="mt-8 shadow-2xl  font-serif rounded-full  text-gray-800 hover:text-blue-500 focus:text-indigo-500 bg-gray-200 font-bold mx-auto   py-8  border-b-2 border-white"><a href="#">HOME</a></div>
-        <div class="shadow-2xl tracking-wide font-serif rounded-full  text-gray-800 hover:text-blue-500 focus:text-indigo-500 font-bold mx-auto block bg-gray-200  p-8 "><a href="#">PROJECTS</a></div>
-        <div class="shadow-2xl tracking-wide font-serif rounded-full   text-gray-800 hover:text-blue-500 focus:text-indigo-500 font-bold mx-auto block bg-gray-200  p-8 border-t-2 border-b-2 text-tracking-wide border-white"><a href="#">LIBRARY</a></div>
-        <div class="shadow-2xl tracking-wide font-serif rounded-full  text-gray-800 hover:text-blue-500 focus:text-indigo-500 font-bold mx-auto block bg-gray-200  py-8  "><a href="#">ABOUT ME</a></div>
+        <div class="mt-8  shadow-2xl w-5/6 font-serif rounded-full  text-gray-800 hover:text-blue-500 focus:text-indigo-500 bg-gray-200 font-bold mx-auto   py-4 border-b-2 border-white"><a href="#">HOME</a></div>
+        <div class="shadow-2xl w-5/6 tracking-wide font-serif rounded-full  text-gray-800 hover:text-blue-500 focus:text-indigo-500 font-bold mx-auto block bg-gray-200  py-4 "><a href="#">PROJECTS</a></div>
+        <div class="shadow-2xl w-5/6 tracking-wide font-serif rounded-full   text-gray-800 hover:text-blue-500 focus:text-indigo-500 font-bold mx-auto block bg-gray-200  py-4 border-t-2 border-b-2 text-tracking-wide border-white"><a href="#">LIBRARY</a></div>
+        <div class="shadow-2xl w-5/6 tracking-wide font-serif rounded-full  text-gray-800 hover:text-blue-500 focus:text-indigo-500 font-bold mx-auto block bg-gray-200  py-4  "><a href="#">ABOUT ME</a></div>
        
-        <div class=" shadow-2xl text-right mt-32 pb-8 rounded-lg">
+        <div class=" text-left ml-10 mt-4 pb-8 rounded-lg">
             <div  class=" hover:text-blue-500  px-2 inline inactive"><a class="fa fa-twitter" href="https://twitter.com/DalmiaVaibhav"></a></div>
             <div class=" inline hover:text-blue-500  inactive"><a class="fa fa-linkedin" href="https://www.linkedin.com/in/vaibhav-dalmia-a4b023179"></a></div>
             <div class=" px-2 hover:text-blue-500 inline inactive"><a class="fa fa-github"	href="https://github.com/vaibhavdl"></a></div>
@@ -56,10 +57,10 @@
 </button>
 
 </div>
-<nav class="navbar items-center justify-between  flex  rounded-t-lg shadow-lg bg-local mx-auto tracking-wider  " style="background-image:url('images/bg.jpg')">
+<nav class="navbar bg-cover items-center justify-between  flex  rounded-t-lg shadow-lg  mx-auto tracking-wider "  style=" background-image:url('images/bg.jpg')">
 
   <div>
-    <button class="nav-b active  rounded-tl-lg  ">
+    <button class="nav-b  active  rounded-tl-lg  ">
         
         HOME
         
