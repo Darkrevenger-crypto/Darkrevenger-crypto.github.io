@@ -32,12 +32,14 @@ window.addEventListener('resize',function(e)
     let width=window.innerWidth;
     if(width<1024)
     {
-        menu.style.display='flex';
+        
         
         if(c>0)
-        {dropdown.style.display='none';}
+        {dropdown.style.display='none';
+        menu.style.display='flex';}
         else{
             dropdown.style.display='flex';
+            menu.style.display='none';
         }
     }
     else{
