@@ -6,10 +6,39 @@
     <link rel="stylesheet" href="dist/style.css">
     <title>Document</title>
 </head>
-<body class="bg-red-300 ">
-    <canvas class="border-2 mt-48 border-black bg-gray-200  ">
+<body class="bg-gray-800 ">
+    <div class=" rules flex flex-col   text-center">
+        <div class="mt-16 text-white text-4xl font-extrabold tracking-wide">
+             RULES:
+        </div>
+        <div class="my-4 text-white tracking-wide font-serif">
+          1.  Press Right arrow key to start the game
+        </div>
+        <div class="text-white tracking-wide font-serif">
+          2.  Press left arrow key to stop the game
+        </div>
+        <div class="my-4 text-white font-sans tracking-wide">
+          3.  Use the up arraow key to dodge the obstacles
+        </div>
+       
+    </div>
+    <div class="gg text-center text-white text-3xl font-bold tracking-wide">
+        Game over
+    </div>
+    <div class="text-center restart text-white text-xl ">
+        Press spacebar to restart
+    </div>
+    <canvas class="border-2 mt-32 border-black bg-gray-200  ">
 
     </canvas>
-    <script src="demo.js"></script>
+    <div class="mt-48 text-center text-3xl text-white  font-bold trecking-wide">
+        <button class="bg-gray-600 px-6 py-2 rounded-lg up">Arrow Key
+
+        </button>
+        
+    </div>
+    <script src="demo.js">
+        document.write(sc())
+    </script>
 </body>
 </html>
