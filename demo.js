@@ -129,7 +129,7 @@ for(var i=0;i<120;i++)
      //Game over condition
     if(array[i].x-r<r&&r-array[i].x<r&&array[i].y-y<r)
    {
-         
+
         f=10;
         gg.style.visibility='visible'; //game over screen is visible
         e=sc;
@@ -188,7 +188,7 @@ c.fillText("High score:"+hs,innerWidth-100,180)
  {
  c.beginPath();
  c.arc(r,y,r,0,Math.PI * 2,false);
- c.fillStyle='rgb(0,0,0)';
+ c.fillStyle='rgb(255,30,60)';
  c.fill();
 
  }
@@ -209,7 +209,7 @@ c.fillText("High score:"+hs,innerWidth-100,180)
             c.beginPath();
             y=150-r-80; //y coordinatee of the ball
              c.arc(r,y,r,0,Math.PI * 2,false);//ball drawn
-             c.fillStyle='rgb(0,0,0)';
+             c.fillStyle='rgb(205,80,100)';
               c.fill();
               d=-1; //d negatives
               
@@ -237,7 +237,7 @@ c.fillText("High score:"+hs,innerWidth-100,180)
              c.clearRect(0,0,100,100);
              c.beginPath();
              c.arc(r,y,r,0,Math.PI * 2,false);
-             c.fillStyle='rgb(0,0,0)';
+             c.fillStyle='rgb(255,30,60)';
              c.fill();
              f=10;
             
@@ -260,7 +260,7 @@ if(f===170)
   c.clearRect(0,0,100,100);
   c.beginPath();
   c.arc(r,y,r,0,Math.PI * 2,false);
-   c.fillStyle='rgb(0,0,0)';
+   c.fillStyle='rgb(255,30,60)';
    c.fill();
   
   f=0;
